@@ -1,0 +1,24 @@
+Template Strings en JavaScript:
+También conocidos como "template literals", son una característica introducida en ECMAScript 6  que ofrece una forma más flexible y legible de crear strings en JavaScript.
+Característica Importante: 
+
+Interpolación de variables:
+Una de las características más útiles de los template strings es la capacidad de incluir variables directamente dentro del string utilizando la sintaxis `${variable}`. Esto elimina la necesidad de concatenar strings y variables utilizando el operador `+`, lo que hace que el código sea más legible y menos propenso a errores.
+Ejemplo: 
+console.log(`The sum of values (${numberA}, ${numberB}) is: ${result}`);
+
+
+Multilínea: 
+Los template strings pueden abarcar múltiples líneas de texto sin necesidad de utilizar caracteres de escape como `\n`. Esto mejora la legibilidad del código, especialmente cuando se trata de strings largos o mensajes multilinea.
+Ejemplo:
+const mensaje = `Hola ¿comó estas?, me llamo Victoria Jimenez Martinez.`;
+
+Expresiones dentro de placeholders:
+Además de variables, también se pueden incluir expresiones JavaScript válidas dentro de los placeholders `${...}`. Esto permite realizar operaciones y funciones en línea dentro del template string.
+Ejemplo:
+const a = 10;
+const b = 5;
+console.log(`El resultado de la suma de ${a} y ${b} es ${a + b}.`);
+
+
+Los template strings son una adición poderosa a JavaScript que facilita la creación de strings complejos de una manera más legible y mantenible.
